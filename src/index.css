@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ body {
+     background-color: aquamarine;
+ }
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* Максимальная ширина элемента, если нужно */
+    max-width: 150px; /* Пример значения */
+}
